@@ -1,0 +1,29 @@
+# Database files - DO NOT COMMIT
+data/app.db
+data/*.db
+*.db
+
+# CSV data files
+data/*.csv
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHP
+vendor/
+composer.lock
+
+# Logs
+*.log
